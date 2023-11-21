@@ -25,3 +25,20 @@ at:
 
 The Dart VM service is listening on http://127.0.0.1:42561/n5SQMG_g7lE=/
 The Dart DevTools debugger and profiler is available at: http://127.0.0.1:42561/n5SQMG_g7lE=/devtools?uri=ws://127.0.0.1:42561/n5SQMG_g7lE=/ws
+[custom_lint] 2023-11-21T12:12:21.289439 lib/custom_lint_client.dart:11:12: Error: Required named parameter 'host' must be provided.
+[custom_lint] 2023-11-21T12:12:21.289439   runSocket(
+[custom_lint] 2023-11-21T12:12:21.289439            ^
+[custom_lint] 2023-11-21T12:12:21.289439 /home/sumit/StudioProjects/dart_custom_lint/packages/custom_lint_builder/lib/src/channel.dart:57:14: Context: Found this candidate, but the arguments don't match.
+[custom_lint] 2023-11-21T12:12:21.289439 Future<void> runSocket(
+[custom_lint] 2023-11-21T12:12:21.289439              ^^^^^^^^^
+[custom_lint] 2023-11-21T12:12:21.289439
+[custom_lint] 2023-11-21T12:12:21.289439
+Failed to start pluginsThe request analysis.setContextRoots failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+Bad state: Failed to start the plugins.
+at:
+#0      SocketCustomLintServerToClientChannel._checkInitializationFail.<anonymous closure> (package:custom_lint/src/v2/server_to_client_channel.dart:235:11)
+<asynchronous suspension>
+#1      Future.any.onValue (dart:async/future.dart:613:5)
+<asynchronous suspension>
+
