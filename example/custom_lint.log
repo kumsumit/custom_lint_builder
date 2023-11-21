@@ -23,3 +23,5 @@ at:
 #1      Future.any.onValue (dart:async/future.dart:613:5)
 <asynchronous suspension>
 
+The Dart VM service is listening on http://127.0.0.1:42561/n5SQMG_g7lE=/
+The Dart DevTools debugger and profiler is available at: http://127.0.0.1:42561/n5SQMG_g7lE=/devtools?uri=ws://127.0.0.1:42561/n5SQMG_g7lE=/ws
