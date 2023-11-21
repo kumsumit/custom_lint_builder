@@ -89,7 +89,7 @@
       "name": "custom_lint_core",
       "rootUri": "../../custom_lint_core",
       "packageUri": "lib/",
-      "languageVersion": "2.19"
+      "languageVersion": "3.2"
     },
     {
       "name": "dart_style",
@@ -303,7 +303,7 @@
     },
     {
       "name": "test",
-      "rootUri": "file:///home/sumit/.pub-cache/hosted/pub.dev/test-1.24.6",
+      "rootUri": "file:///home/sumit/.pub-cache/hosted/pub.dev/test-1.24.9",
       "packageUri": "lib/",
       "languageVersion": "3.0"
     },
@@ -315,7 +315,7 @@
     },
     {
       "name": "test_core",
-      "rootUri": "file:///home/sumit/.pub-cache/hosted/pub.dev/test_core-0.5.6",
+      "rootUri": "file:///home/sumit/.pub-cache/hosted/pub.dev/test_core-0.5.9",
       "packageUri": "lib/",
       "languageVersion": "3.0"
     },
@@ -371,10 +371,10 @@
       "name": "custom_lint_builder",
       "rootUri": "../",
       "packageUri": "lib/",
-      "languageVersion": "3.1"
+      "languageVersion": "3.2"
     }
   ],
-  "generated": "2023-11-21T06:14:31.749380Z",
+  "generated": "2023-11-21T06:19:51.460988Z",
   "generator": "pub",
   "generatorVersion": "3.2.0"
 }
