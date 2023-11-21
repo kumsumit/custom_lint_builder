@@ -17,7 +17,8 @@ dependencies:
     git: https://github.com/kumsumit/custom_lint.git
   # Using tight constraints as custom_lint_builder communicate with each-other
   # using a specific contract
-  custom_lint_core: 0.5.7
+  custom_lint_core:
+    git: https://github.com/kumsumit/custom_lint_core.git
   glob: ^2.1.1
   hotreloader: ">=3.0.5 <5.0.0"
   meta: ^1.11.0
